@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EnglishAssistant2</string>
+    <string name="Пожалуйста">Пожалуйста</string>
+    <string name="Пока">Пока</string>
+    <string name="Досвидания">До свидания</string>
+    <string name="Привет">Привет</string>
+    <string name="Слушать">Слушать</string>
+    <string name="Посмотрите">Посмотрите</string>
+    <string name="Нет">Нет</string>
+    <string name="Извините">Извините</string>
+    <string name="Спасибо">Спасибо</string>
+    <string name="Да">Да</string>
+    <string name="todo">TODO</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/_51"
+        tools:ignore="ImageContrastCheck"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/_777english_assistant"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="19dp"
+        style="@style/Текст"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/buttonhelllo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Привет"
+        android:textColor="#81D4FA"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/buttonbye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Пока"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/buttongood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Досвидания"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/buttonlisten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Слушать"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <Button
+        android:id="@+id/buttonlook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Посмотрите"
+        android:textColor="#AED581"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <Button
+        android:id="@+id/buttonno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Нет"
+        android:textColor="#81D4FA"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <Button
+        android:id="@+id/buttonplease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Пожалуйста"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/buttonsorry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Извините"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/buttonthank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Спасибо"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <Button
+        android:id="@+id/buttonyes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Да"
+        android:textColor="#AED581"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
